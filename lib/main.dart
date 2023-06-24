@@ -1,21 +1,16 @@
 //import 'dart:js';
 
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:soccer/pages/AuthProvider.dart';
 import 'package:soccer/pages/citylist.dart';
-import 'package:soccer/pages/drawer.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:soccer/pages/login.dart';
 import 'package:soccer/pages/otp.dart';
-import 'package:firebase_core/firebase_core.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:soccer/pages/otp.dart';
+
+import 'AdminDashboard.dart';
 import 'firebase_options.dart';
-import 'package:provider/provider.dart';
 
 void main() async {
-
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
@@ -24,7 +19,6 @@ void main() async {
 }
 
 class MyApp extends StatefulWidget {
-
   const MyApp({super.key});
 
   @override
@@ -32,27 +26,25 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+  var auth = FirebaseAuth.instance;
+  var checkLogin = true;
 
-  var auth=FirebaseAuth.instance;
-  var checkLogin=false;
-
-  checkIfLogin() async{
-    auth.authStateChanges().listen((User? user)
-    {
-     if(user!=null && mounted)
-       {
-         setState(() {
-           checkLogin=true;
-         });
-
-       }
+  checkIfLogin() async {
+    auth.authStateChanges().listen((User? user) {
+      if (user != null && mounted) {
+        setState(() {
+          checkLogin = true;
+        });
+      }
     });
-}
-@override
-void initState(){
+  }
+
+  @override
+  void initState() {
     checkIfLogin();
     super.initState();
-}
+  }
+
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
@@ -63,14 +55,13 @@ void initState(){
         useMaterial3: true,
         //textTheme: GoogleFonts.robotoTextTheme(Theme.of(context).textTheme),
       ),
-
-        home: checkLogin? CityListPage():LoginPage(),
-
-        routes:{
-          "/login": (context)=>LoginPage(),
-          "/otp":(context)=>OtpScreen(),
-          "/citylist":(context)=>CityListPage()
-        },
+      home: checkLogin ? AdminDashboard() : LoginPage(),
+      routes: {
+        "/login": (context) => LoginPage(),
+        "/admin": (context) => AdminDashboard(),
+        "/otp": (context) => OtpScreen(),
+        "/citylist": (context) => CityListPage()
+      },
     );
   }
 }
@@ -85,19 +76,13 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-
-
   @override
   Widget build(BuildContext context) {
-
     return Scaffold(
       appBar: AppBar(
-
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-
         title: Text(widget.title),
       ),
-
     );
   }
 }
