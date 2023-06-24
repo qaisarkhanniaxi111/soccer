@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "213948590313",
+    "project_id": "soccer-20d83",
+    "storage_bucket": "soccer-20d83.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213948590313:android:29475a0ef37726b3b66878",
+        "android_client_info": {
+          "package_name": "com.company.soccer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "213948590313-16m85fdt20ot8t7i0658ko820p3unfis.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBxAti0UuJf8HoybLWd0vy8ZAKz7n7VCg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "213948590313-16m85fdt20ot8t7i0658ko820p3unfis.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "213948590313-a10hv4ien1bbb0g71sqj4ki3b3fstlbc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.soccer"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213948590313:android:c1cd02bc6f73ebf1b66878",
+        "android_client_info": {
+          "package_name": "com.example.soccer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "213948590313-16m85fdt20ot8t7i0658ko820p3unfis.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBxAti0UuJf8HoybLWd0vy8ZAKz7n7VCg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "213948590313-16m85fdt20ot8t7i0658ko820p3unfis.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "213948590313-a10hv4ien1bbb0g71sqj4ki3b3fstlbc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.soccer"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

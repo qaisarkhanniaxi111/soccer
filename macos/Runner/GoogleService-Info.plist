@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>213948590313-jp1ahts6rvbhmdf1900oqilojg1nj0gc.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.213948590313-jp1ahts6rvbhmdf1900oqilojg1nj0gc</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC_MeGN7uj2y-4n3ZA1uhryDaB_tmMS8kw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>213948590313</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.soccer.RunnerTests</string>
+	<key>PROJECT_ID</key>
+	<string>soccer-20d83</string>
+	<key>STORAGE_BUCKET</key>
+	<string>soccer-20d83.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:213948590313:ios:8568ff7a3bb08eccb66878</string>
+</dict>
+</plist>
