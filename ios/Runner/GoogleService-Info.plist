@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>117958949462-96f96jg8v56lj7n0mo7ls1ep6l0hbqef.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.117958949462-96f96jg8v56lj7n0mo7ls1ep6l0hbqef</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>117958949462-uetiavbpmaqto2f83haaqt3ofnj6h2c3.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB1CLRBZ1W44JYx-1sz1gAvd3dSCcMG6V8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>117958949462</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.samtech.soccerLifeRelease</string>
+	<key>PROJECT_ID</key>
+	<string>soccerapp-1b46a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>soccerapp-1b46a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:117958949462:ios:b9001d3c2275ce69ef19f7</string>
+	<key>DATABASE_URL</key>
+	<string>https://soccerapp-1b46a-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
